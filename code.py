@@ -70,3 +70,4 @@ cv2.putText(img,
 cv2.imshow("output",img)
 
 cv2.waitkey(0)
+cv2.imwrite("Solar_systemwithname.jpg",img)
